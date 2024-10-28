@@ -2,7 +2,8 @@
 #include <cmath
 using namespace std;
 int main(){
-float suma=1,n,med;
+float suma,n,med;
+suma=1;
 cin>>n;
 float num[4]={1,5,3,7};
 for(int i=0;i<n;i++)
