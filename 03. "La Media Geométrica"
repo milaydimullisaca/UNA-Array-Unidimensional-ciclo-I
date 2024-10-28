@@ -1,0 +1,16 @@
+#include <iostream
+#include <cmath
+using namespace std;
+int main(){
+float suma=1,n,med;
+cin>>n;
+float num[4]={1,5,3,7};
+for(int i=0;i<n;i++)
+{
+cout<<num[i]<<" ";
+suma=suma*num[i];
+}
+med = pow(suma, 1.0/n);
+cout<<endl<<"la media es: "<<med;
+return 0;
+}
